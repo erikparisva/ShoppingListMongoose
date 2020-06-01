@@ -1,0 +1,111 @@
+html {
+    background-image: url('../img/oke.gif');
+    background-size: cover;
+    font-family: 'Pixel';
+  }
+  body {
+    margin-top: 200px;
+  }
+  h1 {
+    color: #FFB5B5;
+    padding: 10px;
+  }
+  h2 {
+    color: #422445;
+    padding: 10px;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  
+  .box {
+    max-width: 400px;
+    margin: 50px auto;
+    background: rgb(255, 216, 216);
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.2);
+  }
+  
+  #heading {
+    background-color: #422445;
+    text-align: center;
+  }
+  
+  .item {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #5A265E;
+  }
+  
+  .item:last-child {
+    border-bottom: 0;
+  }
+  
+  input:checked+p {
+    text-decoration: line-through;
+    text-decoration-color: #422445;
+  }
+  
+  input[type="checkbox"] {
+    margin: 20px;
+  }
+  
+  p {
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #BD4882;
+  }
+  
+  form.item {
+    text-align: center;
+    margin-left: 20px;
+  }
+  
+  button {
+    min-height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #5A265E;
+    color: #FFB5B5;
+    font-size: 30px;
+    padding-bottom: 6px;
+    border-width: 0;
+  }
+  
+  input[type="text"] {
+    text-align: center;
+    height: 60px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 200;
+    width: 313px;
+    font-family: 'Pixel';
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    box-shadow: inset 0 -3px 0 0 #5A265E;
+    font-family: 'Pixel';
+  }
+  
+  ::placeholder {
+    color: #422445;
+    opacity: 1;
+    font-family: 'Pixel';
+  }
+  
+  footer {
+    color: white;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    font-size: 1rem;
+  }
+  @font-face {
+    font-family: Pixel;
+    src: url(../fonts/VCR_OSD_MONO_1.001.ttf)
+}
